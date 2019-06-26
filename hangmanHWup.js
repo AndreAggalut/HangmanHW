@@ -20,7 +20,7 @@ function gameStart() {
   const space = [];
   for (let i = 0; i < nameSplit.length; i++) {
     // eslint-disable-next-line prefer-template
-    space.push('');
+    space.push('_');
   }
   // space.join();
 
@@ -41,7 +41,7 @@ function gameStart() {
         newSpace.push(nameSplit[i]);
       } else {
         // eslint-disable-next-line prefer-template
-        newSpace.push('');
+        newSpace.push('_');
       }
     }
     console.log(newSpace.join(' '));
